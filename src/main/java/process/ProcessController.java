@@ -11,7 +11,7 @@ public class ProcessController {
     @Autowired
     private ProcessService processService;
 
-    @RequestMapping(value = "/start")
+    @RequestMapping("/start")
     public int startProcessInstance(@RequestParam int warriors) {
         return processService.startTheProcess(warriors);
     }

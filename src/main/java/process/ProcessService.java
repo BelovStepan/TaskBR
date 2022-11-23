@@ -29,7 +29,8 @@ public class ProcessService {
 
     // start the process and set employee as variable
     public int startTheProcess(int warriors) {
-    resultStoreService.calculation(null,warriors);
+        //resultStoreService.calculation(null,warriors);
+        warriors =228;
         return warriors;
     }
 }
